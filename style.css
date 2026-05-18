@@ -73,3 +73,62 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.stats-container{
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+button:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+#intro{
+    background-color: rgb(207, 240, 239);
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nav{
+    background-color: rgb(96, 148, 147);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+}
+
+.nav:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(96, 148, 147);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: rgb(96, 148, 147);
+    font-size: 20pt;
+}
